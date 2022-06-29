@@ -1,5 +1,5 @@
 var RIVAL={
-  "aiNum":60,
+  "aiNum":40,
   "statuTime":2000,
   "isAi":true,
   "size":0,
@@ -49,9 +49,9 @@ var RIVAL={
   this.showStatu=false;
   this.showStatuTime=0;
   this.img=aiImg;
-  this.speed=1.5;//速度
+  this.speed=2.5;//速度
   this.hp=3;//生命值
-  this.power=8;//炸弹范围
+  this.power=5;//炸弹范围
   this.damage=1;//伤害
   this.bombNum=0;//已放置炸弹数
   this.bombMaxNum=2;
